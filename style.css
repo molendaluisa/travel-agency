@@ -157,7 +157,6 @@ header .logo {
 .menu {
   display: none;
 }
-
 .menu.active {
   position: absolute;
   top: 0;
