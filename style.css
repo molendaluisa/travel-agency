@@ -25,6 +25,11 @@ header .logo {
   font-size: 28px;
 }
 
+header img {
+  width: 180px;
+  height: 150px;
+}
+
 .toggle {
   width: 45px;
   height: 25px;
@@ -42,7 +47,7 @@ header .logo {
   height: 3px;
   background-color: #fff;
   transition: all 200ms ease-in-out;
-  transform-origin: 27px 1px;
+  transform-origin: 28px 1px;
 }
 .toggle.active .line {
   background: #111;
@@ -105,7 +110,8 @@ header .logo {
   color: #fff;
   margin: 20px 0;
   font-weight: 400;
-  max-width: 700px;
+  /* max-width: 700px; */
+  max-width: 500px;
 }
 .text a {
   display: inline-block;
@@ -181,6 +187,7 @@ header .logo {
 }
 .menu ul li a:hover {
   color: #03a9f4;
+  cursor: pointer;
 }
 
 @media (max-width: 991px) {
