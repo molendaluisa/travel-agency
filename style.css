@@ -25,10 +25,10 @@ header .logo {
   font-size: 28px;
 }
 
-header img {
+/* header img {
   width: 180px;
   height: 150px;
-}
+} */
 
 .toggle {
   width: 45px;
@@ -110,8 +110,8 @@ header img {
   color: #fff;
   margin: 20px 0;
   font-weight: 400;
-  /* max-width: 700px; */
-  max-width: 500px;
+  max-width: 700px;
+  /* max-width: 500px; */
 }
 .text a {
   display: inline-block;
